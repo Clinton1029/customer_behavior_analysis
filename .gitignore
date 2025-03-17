@@ -1,0 +1,20 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebooks (if added later)
+*.ipynb
+
+# Ignore dataset files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Ignore logs and temporary files
+logs/
+*.log
