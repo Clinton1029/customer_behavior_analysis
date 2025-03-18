@@ -18,3 +18,8 @@ df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 missing_values = df.isnull().sum()
 print("Missing Values:\n", missing_values)
 
+# Check for duplicates
+duplicate_count = df.duplicated().sum()
+print(f"Duplicate Rows: {duplicate_count}")
+
+
