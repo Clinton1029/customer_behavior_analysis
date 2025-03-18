@@ -9,3 +9,6 @@ df = pd.read_csv(file_path)
 
 # Display the first 5 rows
 print(df.head())
+
+# Standardize column names
+df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
