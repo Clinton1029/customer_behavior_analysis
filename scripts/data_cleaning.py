@@ -12,3 +12,9 @@ print(df.head())
 
 # Standardize column names
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+
+
+# Check for missing values
+missing_values = df.isnull().sum()
+print("Missing Values:\n", missing_values)
+
