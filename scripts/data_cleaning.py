@@ -10,6 +10,10 @@ df = pd.read_csv(file_path)
 # Display the first 5 rows
 print(df.head())
 
+# Display data types of each column
+print("Column Data Types:\n", df.dtypes)
+
+
 # Standardize column names
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 
@@ -21,5 +25,6 @@ print("Missing Values:\n", missing_values)
 # Check for duplicates
 duplicate_count = df.duplicated().sum()
 print(f"Duplicate Rows: {duplicate_count}")
+
 
 
