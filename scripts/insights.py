@@ -4,6 +4,7 @@ import os
 # Constants
 DATA_PATH = r"C:\Users\Hp\Documents\customer_behavior_analysis\data\shopping_trends_cleaned.csv"
 
+# Utility Functions
 def load_data(file_path):
     """Load the cleaned dataset."""
     if os.path.exists(file_path):
@@ -11,6 +12,7 @@ def load_data(file_path):
     else:
         raise FileNotFoundError(f"⚠️ The file '{file_path}' does not exist.")
 
+# Insights Functions
 def top_purchased_categories(df, top_n=5):
     """Find the top N most purchased categories."""
     return df["category"].value_counts().head(top_n)
@@ -43,6 +45,7 @@ def discount_usage(df):
     """Check the proportion of purchases that had a discount applied."""
     return df["discount_applied"].value_counts(normalize=True) * 100
 
+# Generate Insights
 def generate_insights(df):
     """Generate key insights from the data."""
     print("\n🔹 **Top Purchased Categories:**")
@@ -71,10 +74,14 @@ def generate_insights(df):
 
     print("\n✅ **Insights Generation Completed!**")
 
+# Main Function
 def run():
     """Run the insights generation process."""
+    print("\n🔍 Starting Insights Generation...")
     df = load_data(DATA_PATH)
     generate_insights(df)
+    print("\n✅ Insights Generation Process Completed!")
 
+# Execute the Script
 if __name__ == "__main__":
     run()
