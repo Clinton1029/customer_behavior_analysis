@@ -12,10 +12,6 @@ if not os.path.exists(DATA_PATH):
 # Load the cleaned dataset
 df = pd.read_csv(DATA_PATH)
 
-# Convert purchase_date to datetime (if available)
-if "purchase_date" in df.columns:
-    df["purchase_date"] = pd.to_datetime(df["purchase_date"], errors="coerce")
-
 # ---------------------- VISUALIZATION FUNCTIONS ---------------------- #
 
 def plot_category_distribution(column_name, title):
@@ -51,12 +47,12 @@ def plot_scatter(x_column, y_column, title):
 
 def plot_line_chart(x_column, y_column, title):
     """Creates a line chart to visualize trends over time with professional styling."""
-    if df[x_column].isnull().all():
-        print(f"⚠️ Skipping line chart: {x_column} contains only null values.")
+    if x_column not in df.columns or y_column not in df.columns:
+        print(f"⚠️ Skipping line chart: Columns {x_column} or {y_column} not found.")
         return
 
     plt.figure(figsize=(12, 5))
-    df_sorted = df.sort_values(by=x_column)  # Ensure data is sorted by date/time
+    df_sorted = df.sort_values(by=x_column)  # Ensure data is sorted
     plt.plot(df_sorted[x_column], df_sorted[y_column], color="blue", marker="o", linestyle="-", alpha=0.7)
     plt.title(title, fontsize=16, fontweight="bold", color="darkblue")
     plt.xlabel(x_column.replace("_", " ").title(), fontsize=12, fontweight="bold")
@@ -86,9 +82,8 @@ def run():
     # 5. Relationship between Previous Purchases and Purchase Amount
     plot_scatter("previous_purchases", "purchase_amount_(usd)", "Previous Purchases vs. Purchase Amount (USD)")
 
-    # 6. Purchase Amount Trend Over Time (Line Chart)
-    if "purchase_date" in df.columns:
-        plot_line_chart("purchase_date", "purchase_amount_(usd)", "Trend of Purchase Amounts Over Time")
+    # 6. Purchase Amount Trend Based on Previous Purchases (Line Chart)
+    plot_line_chart("previous_purchases", "purchase_amount_(usd)", "Trend of Purchase Amounts Based on Previous Purchases")
 
     print("✅ Visualizations generated successfully!")
 
