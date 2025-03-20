@@ -1,18 +1,20 @@
 import sys
 import os
 
-# Add the scripts directory to the Python module path
+# Add the scripts directory to Python's module search path
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(SCRIPT_DIR)
 
+# Import the project modules
 import data_cleaning
 import eda
 import insights
-import visualization  # Ensure visualization.py exists in scripts/
+import visualization
 
 def run():
+    """Runs the full customer behavior analysis pipeline."""
     print("\n🚀 Running Customer Behavior Analysis Pipeline...\n")
-    
+
     print("🔹 Step 1: Data Cleaning")
     data_cleaning.run()
 
