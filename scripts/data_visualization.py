@@ -2,18 +2,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-# File path to the cleaned dataset
+# ---------------------- CONSTANTS ---------------------- #
 DATA_PATH = r"C:\Users\Hp\Documents\customer_behavior_analysis\data\shopping_trends_cleaned.csv"
 
-# Ensure the file exists before loading
-if not os.path.exists(DATA_PATH):
-    raise FileNotFoundError(f"❌ The cleaned dataset was not found at: {DATA_PATH}")
+# ---------------------- DATA LOADING ---------------------- #
+def load_data(file_path):
+    """Load the cleaned dataset and ensure the file exists."""
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"❌ The cleaned dataset was not found at: {file_path}")
+    return pd.read_csv(file_path)
 
-# Load the cleaned dataset
-df = pd.read_csv(DATA_PATH)
+# Load the dataset
+df = load_data(DATA_PATH)
 
 # ---------------------- VISUALIZATION FUNCTIONS ---------------------- #
-
 def plot_category_distribution(column_name, title):
     """Plots the distribution of a categorical column with professional formatting."""
     plt.figure(figsize=(10, 5))
@@ -62,7 +64,6 @@ def plot_line_chart(x_column, y_column, title):
     plt.show()
 
 # ---------------------- RUN FUNCTION ---------------------- #
-
 def run():
     """Runs the visualization process with professional chart titles."""
     print("📊 Generating visualizations...\n")
@@ -87,6 +88,6 @@ def run():
 
     print("✅ Visualizations generated successfully!")
 
-# Run the script when executed
+# ---------------------- SCRIPT EXECUTION ---------------------- #
 if __name__ == "__main__":
     run()
