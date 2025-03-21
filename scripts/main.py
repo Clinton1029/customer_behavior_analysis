@@ -8,7 +8,7 @@ sys.path.append(SCRIPT_DIR)
 
 # Import necessary modules
 try:
-    import data_cleaning
+   
     import eda
     import insights
     import data_visualization
@@ -21,10 +21,7 @@ def run():
     """Runs the full customer behavior analysis pipeline."""
     print("\n🚀 Running Customer Behavior Analysis Pipeline...\n")
 
-    # Step 1: Data Cleaning
-    print("🔹 Step 1: Cleaning Data")
-    data_cleaning.run()
-
+    
     # Step 2: Exploratory Data Analysis (EDA)
     print("\n🔹 Step 2: Performing Exploratory Data Analysis (EDA)")
     eda.run()
