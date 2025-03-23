@@ -53,9 +53,15 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - The spread suggests that marketing efforts should be tailored based on factors beyond just age.
 ### 📊 Distribution of Purchase Amounts (USD)
 ![Purchase Amount Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_13.png)
-- The histogram shows a relatively uniform distribution of purchase amounts, with higher frequencies near the upper limit.
-- Customers tend to make purchases in all price ranges, with some preference toward higher amounts. *(Tools: Matplotlib, Seaborn)*
+- Purchase amounts are spread across all ranges, but higher frequencies appear at certain spending levels.
 
+- There are peaks at specific intervals, suggesting pricing strategies or common purchase bundles.
+
+- Some customers make small purchases consistently, while others make occasional high-value purchases.
+
+- The right-skewed distribution indicates that while most customers spend within a common range, a few outliers contribute to significantly high revenue.
+
+- High-value purchases, though less frequent, are essential for revenue growth.
 ### 💳 Payment Methods Used by Customers
 ![Payment Methods](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_11.png)
 - Credit cards are the most commonly used payment method.
