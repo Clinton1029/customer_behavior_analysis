@@ -44,7 +44,7 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - Other methods, such as Venmo, PayPal, and Debit Card, are also widely used but slightly less frequent. *(Tools: Matplotlib, Seaborn)*
 
 ### 👥 Customer Gender Distribution
-![Gender Distribution](path/to/gender_distribution.png)
+![Gender Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_12.png)
 - Male customers outnumber female customers significantly.
 - This imbalance may suggest a targeted audience or differences in shopping preferences between genders. *(Tools: Matplotlib, Seaborn)*
 
