@@ -64,17 +64,6 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - High-value purchases, though less frequent, are essential for revenue growth.
 ### 💳 Payment Methods Used by Customers
 ![Payment Methods](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_11.png)
-- Credit cards dominate, suggesting customer preference for cashless payments.
-
-- PayPal and Venmo are widely used, showing that digital wallets are growing in popularity.
-
-- Debit card usage is slightly lower, possibly due to credit rewards or installment options.
-
-- The presence of multiple payment methods highlights the importance of offering diverse payment solutions.
-
-- Alternative payment methods (e.g., Buy Now Pay Later) could further increase sales.
-### 👥 Customer Gender Distribution
-![Gender Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_12.png)
 - Male customers outnumber female customers significantly.
 
 - This could indicate targeted marketing efforts favoring male shoppers.
@@ -84,6 +73,19 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - Gender-specific shopping behaviors may impact promotional strategies.
 
 - Further analysis is needed to understand whether male customers contribute to higher revenue or just higher numbers.
+### 👥 Customer Gender Distribution
+![Gender Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_12.png)
+
+- Credit cards dominate, suggesting customer preference for cashless payments.
+
+- PayPal and Venmo are widely used, showing that digital wallets are growing in popularity.
+
+- Debit card usage is slightly lower, possibly due to credit rewards or installment options.
+
+- The presence of multiple payment methods highlights the importance of offering diverse payment solutions.
+
+- Alternative payment methods (e.g., Buy Now Pay Later) could further increase sales.
+
 ## 🔮 Next Steps
 - 🔍 Conduct customer segmentation using clustering techniques.
 - 📈 Implement predictive modeling to forecast customer behavior.
