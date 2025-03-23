@@ -31,9 +31,15 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - There are outliers with exceptionally high purchases despite having fewer prior transactions.
 ### 💰 Previous Purchases vs. Purchase Amount (USD)
 ![Previous Purchases vs. Amount](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_15.png)
-- The scatter plot suggests that customers with various purchase histories spend within a similar range.
-- Purchase amounts are widely distributed across different previous purchase counts, meaning repeat customers don't necessarily spend more. *(Tools: Matplotlib, Seaborn)*
+- The scatter plot shows a wide variance in spending regardless of previous purchase history.
 
+- Customers with repeated purchases do not necessarily spend more than first-time buyers.
+
+- Some individuals with high previous purchases maintain steady spending, indicating consistent shopping behavior.
+
+- High purchase amounts occur at both low and high previous purchase counts, reflecting diverse customer profiles.
+
+- No clear linear correlation suggests that repeat customers do not automatically increase their spending over time.
 ### 👵🧑 Age vs. Purchase Amount (USD)
 ![Age vs. Purchase Amount](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_14.png)
 - Purchase amounts are fairly consistent across different age groups.
