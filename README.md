@@ -24,7 +24,7 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - No clear increasing or decreasing trend, indicating that past purchases may not significantly influence current spending behavior. *(Tools: Matplotlib, Seaborn)*
 
 ### 💰 Previous Purchases vs. Purchase Amount (USD)
-![Previous Purchases vs. Amount](path/to/purchases_vs_amount.png)
+![Previous Purchases vs. Amount](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_15.png)
 - The scatter plot suggests that customers with various purchase histories spend within a similar range.
 - Purchase amounts are widely distributed across different previous purchase counts, meaning repeat customers don't necessarily spend more. *(Tools: Matplotlib, Seaborn)*
 
