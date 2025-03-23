@@ -39,7 +39,7 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - Customers tend to make purchases in all price ranges, with some preference toward higher amounts. *(Tools: Matplotlib, Seaborn)*
 
 ### 💳 Payment Methods Used by Customers
-![Payment Methods](path/to/payment_methods.png)
+![Payment Methods](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_11.png)
 - Credit cards are the most commonly used payment method.
 - Other methods, such as Venmo, PayPal, and Debit Card, are also widely used but slightly less frequent. *(Tools: Matplotlib, Seaborn)*
 
