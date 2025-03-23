@@ -19,7 +19,7 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 
 ## 📈 Key Insights from Visualizations
 ### 📌 Trend of Purchase Amounts Based on Previous Purchases
-![Trend of Purchase Amounts](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_17.png)
+(https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_17.png)
 - The purchase amount distribution remains relatively stable across different purchase histories.
 
 - There is no strong upward or downward trend, implying that past purchases do not heavily influence future spending.
