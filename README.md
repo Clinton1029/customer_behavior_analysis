@@ -34,7 +34,7 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - No strong correlation between age and spending behavior. *(Tools: Matplotlib, Seaborn)*
 
 ### 📊 Distribution of Purchase Amounts (USD)
-![Purchase Amount Distribution](path/to/amount_distribution.png)
+![Purchase Amount Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_13.png)
 - The histogram shows a relatively uniform distribution of purchase amounts, with higher frequencies near the upper limit.
 - Customers tend to make purchases in all price ranges, with some preference toward higher amounts. *(Tools: Matplotlib, Seaborn)*
 
