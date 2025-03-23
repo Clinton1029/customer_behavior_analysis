@@ -70,8 +70,14 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 ### 👥 Customer Gender Distribution
 ![Gender Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_12.png)
 - Male customers outnumber female customers significantly.
-- This imbalance may suggest a targeted audience or differences in shopping preferences between genders. *(Tools: Matplotlib, Seaborn)*
 
+- This could indicate targeted marketing efforts favoring male shoppers.
+
+- The imbalance suggests potential growth opportunities in female-oriented products or services.
+
+- Gender-specific shopping behaviors may impact promotional strategies.
+
+- Further analysis is needed to understand whether male customers contribute to higher revenue or just higher numbers.
 ## 🔮 Next Steps
 - 🔍 Conduct customer segmentation using clustering techniques.
 - 📈 Implement predictive modeling to forecast customer behavior.
