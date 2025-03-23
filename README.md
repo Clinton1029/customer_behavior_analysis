@@ -20,9 +20,15 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 ## 📈 Key Insights from Visualizations
 ### 📌 Trend of Purchase Amounts Based on Previous Purchases
 ![Trend of Purchase Amounts](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_17.png)
-- There is a dense distribution of purchase amounts across various previous purchase counts.
-- No clear increasing or decreasing trend, indicating that past purchases may not significantly influence current spending behavior. *(Tools: Matplotlib, Seaborn)*
+- The purchase amount distribution remains relatively stable across different purchase histories.
 
+- There is no strong upward or downward trend, implying that past purchases do not heavily influence future spending.
+
+- Customers with fewer previous purchases still exhibit high spending, showing that new customers can also be high-value.
+
+- Some fluctuations exist, suggesting that external factors like promotions or seasonality may impact spending.
+
+- There are outliers with exceptionally high purchases despite having fewer prior transactions.
 ### 💰 Previous Purchases vs. Purchase Amount (USD)
 ![Previous Purchases vs. Amount](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_15.png)
 - The scatter plot suggests that customers with various purchase histories spend within a similar range.
