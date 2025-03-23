@@ -29,7 +29,7 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - Purchase amounts are widely distributed across different previous purchase counts, meaning repeat customers don't necessarily spend more. *(Tools: Matplotlib, Seaborn)*
 
 ### 👵🧑 Age vs. Purchase Amount (USD)
-![Age vs. Purchase Amount](path/to/age_vs_amount.png)
+![Age vs. Purchase Amount](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_14.png)
 - Purchase amounts are fairly consistent across different age groups.
 - No strong correlation between age and spending behavior. *(Tools: Matplotlib, Seaborn)*
 
