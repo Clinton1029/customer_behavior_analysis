@@ -42,9 +42,15 @@ This project analyzes customer shopping behaviors using a dataset containing dem
 - No clear linear correlation suggests that repeat customers do not automatically increase their spending over time.
 ### 👵🧑 Age vs. Purchase Amount (USD)
 ![Age vs. Purchase Amount](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_14.png)
-- Purchase amounts are fairly consistent across different age groups.
-- No strong correlation between age and spending behavior. *(Tools: Matplotlib, Seaborn)*
+- Customers across all age groups have similar spending ranges.
 
+- No significant peak or dip, meaning age is not a strong predictor of purchase amount.
+
+- Young adults and middle-aged customers show the most variation in spending behavior.
+
+- Older customers (above 50) still contribute significantly to high-value transactions.
+
+- The spread suggests that marketing efforts should be tailored based on factors beyond just age.
 ### 📊 Distribution of Purchase Amounts (USD)
 ![Purchase Amount Distribution](https://github.com/Clinton1029/customer_behavior_analysis/blob/main/Figure_13.png)
 - The histogram shows a relatively uniform distribution of purchase amounts, with higher frequencies near the upper limit.
