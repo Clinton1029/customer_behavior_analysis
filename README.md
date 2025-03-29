@@ -1,7 +1,7 @@
 # 📊 Customer Behavior Analysis
 
 ## 🌟 Overview
-This project analyzes customer shopping behaviors using a dataset containing demographic, transaction, and behavioral data. The goal is to gain insights into customer spending habits, preferences, and trends.
+This project analyzes customer shopping behaviors using a dataset containing demographic, transaction, and behavioral data. The goal is to gain insights into customer spending habits, preferences, and trends
 
 ## 🛠 Tools & Technologies Used
 - 🐍 **Python** (Data Processing & Analysis)
